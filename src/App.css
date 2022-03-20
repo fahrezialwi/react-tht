@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.App {
+  text-align: center;
+  background-color: #0D2436;
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  padding-bottom: 100px;
+}
+
+.category-header {
+  text-align: left;
+  background-color: #333333;
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 30px 0px 15px 0px;
+  border-radius: 5px;
+}
+
+.card-nominee {
+  background-color: #009B86 !important;
+}
+
+.card-nominee:hover {
+  background-color: #34AC9C !important;
+  color: #CCCCCC;
+}
+
+.card-nominee-selected {
+  background-color: #009B86 !important;
+  color: #CCCCCC;
+}
+
+.title-nominee {
+  height: 50px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.image-nominee { 
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 50%; 
+  align-self: center;
+}
+
+.image-nominee img { 
+  width: 100%;
+  height: auto; 
+}
+
+.image-nominee-selected { 
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 50%; 
+  align-self: center;
+}
+
+.image-nominee-selected img { 
+  width: 100%;
+  height: auto; 
+  opacity: 0.5;
+}
+
+.submit-ballot-bar {
+  position: fixed;
+  bottom: 0;
+  min-height: 50px;
+  width: 100%;
+  background-color: #bea308;
+}
